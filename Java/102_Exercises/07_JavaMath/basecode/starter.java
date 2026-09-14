@@ -69,7 +69,7 @@ class starter {
  
         // TODO: Construct and declare an int variable named leftoverCookies that stores
         // the remainder of totalCookies divided by studentsInClass
-        int
+        int leftoverCookies = totalCookies % studentsInClass;
  
         System.out.println("Leftover cookies: " + leftoverCookies);
         // Expected: Leftover cookies: 2
@@ -83,7 +83,7 @@ class starter {
  
         // TODO: Construct and declare a double variable named totalCost that equals
         // applesPicked times pricePerApple
-        
+        double totalCost = applesPicked * pricePerApple;
  
         System.out.println("Total cost: $" + totalCost);
         // Expected: Total cost: $4.2
@@ -95,7 +95,7 @@ class starter {
         // TODO: Construct and declare an int variable named mathResult that calculates
         // the following, following normal order of operations (PEMDAS):
         //     (8 + 2) * 3 - 10 / 2
-        int mathresult = 
+        int mathResult = (8+2) *3 - (10/2);
 		
         System.out.println("Math result: " + mathResult);
         // Expected: Math result: 25
