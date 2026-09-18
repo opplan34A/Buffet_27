@@ -1,6 +1,8 @@
 /*
     Lecture note example - Input!!
 */
+//need to make code that calculates the tip and ads it to the grand total
+
 import java.util.Scanner;
 
 class LectureInput{
@@ -51,12 +53,17 @@ class LectureInput{
     int numinput4 = Input.nextInt();
     System.out.println(""); 
     
-    double totalcost = (numinput*45.25)+(numinput2*35.55)+(numinput3*20.95)+(numinput4*5.59);
-    System.out.print ("total cost ");
+    double totalcost = (numinput*45.25) + (numinput2*35.55) + (numinput3*20.95) + (numinput4*5.59);
+    System.out.print ("total cost without tip ");
     System.out.print(totalcost);
-    System.out.print("$");
-
-
-
+    System.out.println("$");
+   
+    System.out.println (" how much would you like to tip");
+    double tip = Input.nextDouble();
+    
+    tip = tip/100 * totalcost;
+    System.out.println ("cost plus tip");
+    System.out.print (tip + totalcost);
+    System.out.print (" $");
 	}
 }
