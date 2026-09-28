@@ -18,9 +18,27 @@ class starter {
 		System.out.println("please enter another integer (larger than the first one) : ");
         int numinput2 = Input.nextInt(); 
         
-		System.out.println ("your range is");
+		System.out.println ("here are five numbers printed in that range");
         int Randot = (int) (Math.random () * (numinput2 - numinput) + numinput) ;
-        System.out.print (Randot);
+		int Randot2 = (int) (Math.random () * (numinput2 - numinput) + numinput) ;
+		int Randot3 = (int) (Math.random () * (numinput2 - numinput) + numinput) ;
+		int Randot4 = (int) (Math.random () * (numinput2 - numinput) + numinput) ;
+		int Randot5 = (int) (Math.random () * (numinput2 - numinput) + numinput) ;
+        
+		System.out.print (Randot);
+		System.out.print (", ");
+
+        System.out.print (Randot2);
+        System.out.print (", ");
+        
+		System.out.print (Randot3);
+		System.out.print (", ");
+        
+        System.out.print (Randot4);
+		System.out.print (", ");
+		 
+        System.out.print (Randot5);
+        System.out.print (", ");
 
 
 

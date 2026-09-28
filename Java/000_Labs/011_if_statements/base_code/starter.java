@@ -7,8 +7,26 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		
+		int A = 15;
+		int B = 5; 
+        
+		boolean answertt = B == B;
+		boolean answert =  B < A; 
+		boolean test = 23>50;
+
+
+		if(answert){
+			System.out.println (A + " is larger than B");
+		}      
+     
+	    if (answertt){
+          System.out.println (B + " is equal to B");
+		}
+       
+
+
+
+		
 	}
 }
