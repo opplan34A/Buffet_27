@@ -1,6 +1,6 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Ruben Coleman Garcia
+ *  Date: 10/1/2026
 */
 
 import java.util.Scanner;
