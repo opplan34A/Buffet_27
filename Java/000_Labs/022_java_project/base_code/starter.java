@@ -10,6 +10,7 @@ class starter {
 	public static void main(String args[]) {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Welcome to the slot machine"); 
        
 	    System.out.println ("there are some rules");
@@ -21,5 +22,65 @@ class starter {
 		System.out.println (" A. If two numbers match, the money that you wagered is doubled");
         System.out.println (" B. If three numbers match, your wagered money is tripled");
         System.out.println (" C. If none of the numbers match you loose your money");
-	}
-}
+        
+		System.out.println ("Would you like to play? (Yes/yes)");
+        
+
+
+        int cash = 100;
+		String YesNo = sc.nextLine();
+		
+		boolean inputNo = YesNo.equals("No");
+		boolean inputno = YesNo.equals("no");
+		boolean inputyes = YesNo.equals("yes");
+		boolean inputYes = YesNo.equals("Yes");
+
+		
+		if (inputNo) { // if statement No starting brackets
+        
+		System.out.println("");
+		System.out.println ("Well it was nice to have you! Please come again soon. Remember you have $" + cash + " left");
+       
+
+		} // if statement No ending brackets
+
+        else if (inputno) { // else if no starting
+        
+		System.out.println ("Well it was nice to have you! Please come again soon. Remember you have $" + cash + " left");
+       
+		} // else if no ending
+        
+		else if (inputyes) { // if yes starting brackets
+        System.out.println ("How much would you like to wager?");
+
+		} // else if yes ending brackets
+        
+		else if (inputYes) { // else if yes starting brackets
+        System.out.println ("How much would you like to wager?");
+        int randomone = (int) (Math.random()* 10 + 1);
+		int randomtwo = (int) (Math.random()* 10 + 1);
+		int randomthree = (int) (Math.random()* 10 + 1);
+         
+        
+
+		int numberinput = sc.nextInt ();
+
+        
+        
+        if () { // if three in a row starting brackets
+        System.out.println ("test");
+
+		} // if three in a row ending brackets
+	
+	
+		} // else if Yes ending brackets
+
+
+
+	} // string args ending brackets
+
+
+} //class starter ending brackets
+
+
+
